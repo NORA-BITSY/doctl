@@ -1,0 +1,1021 @@
+    │       │       │   ├── bracket.go
+    │       │       │   ├── core.go
+    │       │       │   ├── prop.go
+    │       │       │   ├── tables10.0.0.go
+    │       │       │   ├── tables11.0.0.go
+    │       │       │   ├── tables12.0.0.go
+    │       │       │   ├── tables13.0.0.go
+    │       │       │   ├── tables15.0.0.go
+    │       │       │   ├── tables9.0.0.go
+    │       │       │   └── trieval.go
+    │       │       └── norm
+    │       │           ├── composition.go
+    │       │           ├── forminfo.go
+    │       │           ├── input.go
+    │       │           ├── iter.go
+    │       │           ├── normalize.go
+    │       │           ├── readwriter.go
+    │       │           ├── tables10.0.0.go
+    │       │           ├── tables11.0.0.go
+    │       │           ├── tables12.0.0.go
+    │       │           ├── tables13.0.0.go
+    │       │           ├── tables15.0.0.go
+    │       │           ├── tables9.0.0.go
+    │       │           ├── transform.go
+    │       │           └── trie.go
+    │       ├── time
+    │       │   ├── LICENSE
+    │       │   ├── PATENTS
+    │       │   └── rate
+    │       │       ├── rate.go
+    │       │       └── sometimes.go
+    │       └── tools
+    │           ├── go
+    │           │   └── ast
+    │           │       └── astutil
+    │           │           ├── enclosing.go
+    │           │           ├── imports.go
+    │           │           ├── rewrite.go
+    │           │           └── util.go
+    │           ├── imports
+    │           │   └── forward.go
+    │           ├── internal
+    │           │   ├── event
+    │           │   │   ├── core
+    │           │   │   │   ├── event.go
+    │           │   │   │   ├── export.go
+    │           │   │   │   └── fast.go
+    │           │   │   ├── doc.go
+    │           │   │   ├── event.go
+    │           │   │   ├── keys
+    │           │   │   │   ├── keys.go
+    │           │   │   │   ├── standard.go
+    │           │   │   │   └── util.go
+    │           │   │   └── label
+    │           │   │       └── label.go
+    │           │   ├── gocommand
+    │           │   │   ├── invoke.go
+    │           │   │   ├── vendor.go
+    │           │   │   └── version.go
+    │           │   ├── gopathwalk
+    │           │   │   └── walk.go
+    │           │   ├── imports
+    │           │   │   ├── fix.go
+    │           │   │   ├── imports.go
+    │           │   │   ├── mod_cache.go
+    │           │   │   ├── mod.go
+    │           │   │   └── sortimports.go
+    │           │   └── stdlib
+    │           │       ├── manifest.go
+    │           │       └── stdlib.go
+    │           ├── LICENSE
+    │           └── PATENTS
+    ├── gopkg.in
+    │   ├── inf.v0
+    │   │   ├── dec.go
+    │   │   ├── LICENSE
+    │   │   └── rounder.go
+    │   ├── ini.v1
+    │   │   ├── codecov.yml
+    │   │   ├── data_source.go
+    │   │   ├── deprecated.go
+    │   │   ├── error.go
+    │   │   ├── file.go
+    │   │   ├── helper.go
+    │   │   ├── ini.go
+    │   │   ├── key.go
+    │   │   ├── LICENSE
+    │   │   ├── Makefile
+    │   │   ├── parser.go
+    │   │   ├── README.md
+    │   │   ├── section.go
+    │   │   └── struct.go
+    │   ├── yaml.v2
+    │   │   ├── apic.go
+    │   │   ├── decode.go
+    │   │   ├── emitterc.go
+    │   │   ├── encode.go
+    │   │   ├── LICENSE
+    │   │   ├── LICENSE.libyaml
+    │   │   ├── NOTICE
+    │   │   ├── parserc.go
+    │   │   ├── readerc.go
+    │   │   ├── README.md
+    │   │   ├── resolve.go
+    │   │   ├── scannerc.go
+    │   │   ├── sorter.go
+    │   │   ├── writerc.go
+    │   │   ├── yaml.go
+    │   │   ├── yamlh.go
+    │   │   └── yamlprivateh.go
+    │   └── yaml.v3
+    │       ├── apic.go
+    │       ├── decode.go
+    │       ├── emitterc.go
+    │       ├── encode.go
+    │       ├── LICENSE
+    │       ├── NOTICE
+    │       ├── parserc.go
+    │       ├── readerc.go
+    │       ├── README.md
+    │       ├── resolve.go
+    │       ├── scannerc.go
+    │       ├── sorter.go
+    │       ├── writerc.go
+    │       ├── yaml.go
+    │       ├── yamlh.go
+    │       └── yamlprivateh.go
+    ├── k8s.io
+    │   ├── api
+    │   │   ├── admissionregistration
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── apiserverinternal
+    │   │   │   └── v1alpha1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       └── zz_generated.deepcopy.go
+    │   │   ├── apps
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1beta1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   └── v1beta2
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── authentication
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── authorization
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── autoscaling
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v2
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v2beta1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   └── v2beta2
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── batch
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── certificates
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── coordination
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── core
+    │   │   │   └── v1
+    │   │   │       ├── annotation_key_constants.go
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── lifecycle.go
+    │   │   │       ├── objectreference.go
+    │   │   │       ├── register.go
+    │   │   │       ├── resource.go
+    │   │   │       ├── taint.go
+    │   │   │       ├── toleration.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── well_known_labels.go
+    │   │   │       ├── well_known_taints.go
+    │   │   │       └── zz_generated.deepcopy.go
+    │   │   ├── discovery
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── well_known_labels.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── well_known_labels.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── events
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── extensions
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── flowcontrol
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   ├── v1beta1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   ├── v1beta2
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   └── v1beta3
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── LICENSE
+    │   │   ├── networking
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── well_known_annotations.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   └── zz_generated.prerelease-lifecycle.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── well_known_annotations.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── node
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── policy
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── rbac
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   ├── resource
+    │   │   │   └── v1alpha1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       └── zz_generated.deepcopy.go
+    │   │   ├── scheduling
+    │   │   │   ├── v1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── v1alpha1
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── types_swagger_doc_generated.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   └── v1beta1
+    │   │   │       ├── doc.go
+    │   │   │       ├── generated.pb.go
+    │   │   │       ├── generated.proto
+    │   │   │       ├── register.go
+    │   │   │       ├── types_swagger_doc_generated.go
+    │   │   │       ├── types.go
+    │   │   │       ├── zz_generated.deepcopy.go
+    │   │   │       └── zz_generated.prerelease-lifecycle.go
+    │   │   └── storage
+    │   │       ├── v1
+    │   │       │   ├── doc.go
+    │   │       │   ├── generated.pb.go
+    │   │       │   ├── generated.proto
+    │   │       │   ├── register.go
+    │   │       │   ├── types_swagger_doc_generated.go
+    │   │       │   ├── types.go
+    │   │       │   └── zz_generated.deepcopy.go
+    │   │       ├── v1alpha1
+    │   │       │   ├── doc.go
+    │   │       │   ├── generated.pb.go
+    │   │       │   ├── generated.proto
+    │   │       │   ├── register.go
+    │   │       │   ├── types_swagger_doc_generated.go
+    │   │       │   ├── types.go
+    │   │       │   ├── zz_generated.deepcopy.go
+    │   │       │   └── zz_generated.prerelease-lifecycle.go
+    │   │       └── v1beta1
+    │   │           ├── doc.go
+    │   │           ├── generated.pb.go
+    │   │           ├── generated.proto
+    │   │           ├── register.go
+    │   │           ├── types_swagger_doc_generated.go
+    │   │           ├── types.go
+    │   │           ├── zz_generated.deepcopy.go
+    │   │           └── zz_generated.prerelease-lifecycle.go
+    │   ├── apimachinery
+    │   │   ├── LICENSE
+    │   │   ├── pkg
+    │   │   │   ├── api
+    │   │   │   │   ├── errors
+    │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   ├── errors.go
+    │   │   │   │   │   └── OWNERS
+    │   │   │   │   └── resource
+    │   │   │   │       ├── amount.go
+    │   │   │   │       ├── generated.pb.go
+    │   │   │   │       ├── generated.proto
+    │   │   │   │       ├── math.go
+    │   │   │   │       ├── OWNERS
+    │   │   │   │       ├── quantity_proto.go
+    │   │   │   │       ├── quantity.go
+    │   │   │   │       ├── scale_int.go
+    │   │   │   │       ├── suffix.go
+    │   │   │   │       └── zz_generated.deepcopy.go
+    │   │   │   ├── apis
+    │   │   │   │   └── meta
+    │   │   │   │       └── v1
+    │   │   │   │           ├── controller_ref.go
+    │   │   │   │           ├── conversion.go
+    │   │   │   │           ├── deepcopy.go
+    │   │   │   │           ├── doc.go
+    │   │   │   │           ├── duration.go
+    │   │   │   │           ├── generated.pb.go
+    │   │   │   │           ├── generated.proto
+    │   │   │   │           ├── group_version.go
+    │   │   │   │           ├── helpers.go
+    │   │   │   │           ├── labels.go
+    │   │   │   │           ├── meta.go
+    │   │   │   │           ├── micro_time_fuzz.go
+    │   │   │   │           ├── micro_time_proto.go
+    │   │   │   │           ├── micro_time.go
+    │   │   │   │           ├── OWNERS
+    │   │   │   │           ├── register.go
+    │   │   │   │           ├── time_fuzz.go
+    │   │   │   │           ├── time_proto.go
+    │   │   │   │           ├── time.go
+    │   │   │   │           ├── types_swagger_doc_generated.go
+    │   │   │   │           ├── types.go
+    │   │   │   │           ├── unstructured
+    │   │   │   │           │   ├── helpers.go
+    │   │   │   │           │   ├── unstructured_list.go
+    │   │   │   │           │   ├── unstructured.go
+    │   │   │   │           │   └── zz_generated.deepcopy.go
+    │   │   │   │           ├── watch.go
+    │   │   │   │           ├── zz_generated.conversion.go
+    │   │   │   │           ├── zz_generated.deepcopy.go
+    │   │   │   │           └── zz_generated.defaults.go
+    │   │   │   ├── conversion
+    │   │   │   │   ├── converter.go
+    │   │   │   │   ├── deep_equal.go
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── helper.go
+    │   │   │   │   └── queryparams
+    │   │   │   │       ├── convert.go
+    │   │   │   │       └── doc.go
+    │   │   │   ├── fields
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── fields.go
+    │   │   │   │   ├── requirements.go
+    │   │   │   │   └── selector.go
+    │   │   │   ├── labels
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── labels.go
+    │   │   │   │   ├── selector.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── runtime
+    │   │   │   │   ├── allocator.go
+    │   │   │   │   ├── codec_check.go
+    │   │   │   │   ├── codec.go
+    │   │   │   │   ├── conversion.go
+    │   │   │   │   ├── converter.go
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── embedded.go
+    │   │   │   │   ├── error.go
+    │   │   │   │   ├── extension.go
+    │   │   │   │   ├── generated.pb.go
+    │   │   │   │   ├── generated.proto
+    │   │   │   │   ├── helper.go
+    │   │   │   │   ├── interfaces.go
+    │   │   │   │   ├── mapper.go
+    │   │   │   │   ├── negotiate.go
+    │   │   │   │   ├── register.go
+    │   │   │   │   ├── schema
+    │   │   │   │   │   ├── generated.pb.go
+    │   │   │   │   │   ├── generated.proto
+    │   │   │   │   │   ├── group_version.go
+    │   │   │   │   │   └── interfaces.go
+    │   │   │   │   ├── scheme_builder.go
+    │   │   │   │   ├── scheme.go
+    │   │   │   │   ├── serializer
+    │   │   │   │   │   ├── codec_factory.go
+    │   │   │   │   │   ├── json
+    │   │   │   │   │   │   ├── json.go
+    │   │   │   │   │   │   └── meta.go
+    │   │   │   │   │   ├── negotiated_codec.go
+    │   │   │   │   │   ├── protobuf
+    │   │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   │   └── protobuf.go
+    │   │   │   │   │   ├── recognizer
+    │   │   │   │   │   │   └── recognizer.go
+    │   │   │   │   │   ├── streaming
+    │   │   │   │   │   │   └── streaming.go
+    │   │   │   │   │   └── versioning
+    │   │   │   │   │       └── versioning.go
+    │   │   │   │   ├── swagger_doc_generator.go
+    │   │   │   │   ├── types_proto.go
+    │   │   │   │   ├── types.go
+    │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   ├── selection
+    │   │   │   │   └── operator.go
+    │   │   │   ├── types
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── namespacedname.go
+    │   │   │   │   ├── nodename.go
+    │   │   │   │   ├── patch.go
+    │   │   │   │   └── uid.go
+    │   │   │   ├── util
+    │   │   │   │   ├── errors
+    │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   └── errors.go
+    │   │   │   │   ├── framer
+    │   │   │   │   │   └── framer.go
+    │   │   │   │   ├── intstr
+    │   │   │   │   │   ├── generated.pb.go
+    │   │   │   │   │   ├── generated.proto
+    │   │   │   │   │   ├── instr_fuzz.go
+    │   │   │   │   │   └── intstr.go
+    │   │   │   │   ├── json
+    │   │   │   │   │   └── json.go
+    │   │   │   │   ├── naming
+    │   │   │   │   │   └── from_stack.go
+    │   │   │   │   ├── net
+    │   │   │   │   │   ├── http.go
+    │   │   │   │   │   ├── interface.go
+    │   │   │   │   │   ├── port_range.go
+    │   │   │   │   │   ├── port_split.go
+    │   │   │   │   │   └── util.go
+    │   │   │   │   ├── runtime
+    │   │   │   │   │   └── runtime.go
+    │   │   │   │   ├── sets
+    │   │   │   │   │   ├── byte.go
+    │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   ├── empty.go
+    │   │   │   │   │   ├── int.go
+    │   │   │   │   │   ├── int32.go
+    │   │   │   │   │   ├── int64.go
+    │   │   │   │   │   ├── ordered.go
+    │   │   │   │   │   ├── set.go
+    │   │   │   │   │   └── string.go
+    │   │   │   │   ├── validation
+    │   │   │   │   │   ├── field
+    │   │   │   │   │   │   ├── errors.go
+    │   │   │   │   │   │   └── path.go
+    │   │   │   │   │   └── validation.go
+    │   │   │   │   ├── wait
+    │   │   │   │   │   ├── backoff.go
+    │   │   │   │   │   ├── delay.go
+    │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   ├── error.go
+    │   │   │   │   │   ├── loop.go
+    │   │   │   │   │   ├── poll.go
+    │   │   │   │   │   ├── timer.go
+    │   │   │   │   │   └── wait.go
+    │   │   │   │   └── yaml
+    │   │   │   │       └── decoder.go
+    │   │   │   ├── version
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── helpers.go
+    │   │   │   │   └── types.go
+    │   │   │   └── watch
+    │   │   │       ├── doc.go
+    │   │   │       ├── filter.go
+    │   │   │       ├── mux.go
+    │   │   │       ├── streamwatcher.go
+    │   │   │       ├── watch.go
+    │   │   │       └── zz_generated.deepcopy.go
+    │   │   └── third_party
+    │   │       └── forked
+    │   │           └── golang
+    │   │               ├── LICENSE
+    │   │               ├── PATENTS
+    │   │               └── reflect
+    │   │                   └── deep_equal.go
+    │   ├── client-go
+    │   │   ├── kubernetes
+    │   │   │   └── scheme
+    │   │   │       ├── doc.go
+    │   │   │       └── register.go
+    │   │   ├── LICENSE
+    │   │   ├── pkg
+    │   │   │   ├── apis
+    │   │   │   │   └── clientauthentication
+    │   │   │   │       ├── doc.go
+    │   │   │   │       ├── install
+    │   │   │   │       │   └── install.go
+    │   │   │   │       ├── OWNERS
+    │   │   │   │       ├── register.go
+    │   │   │   │       ├── types.go
+    │   │   │   │       ├── v1
+    │   │   │   │       │   ├── doc.go
+    │   │   │   │       │   ├── register.go
+    │   │   │   │       │   ├── types.go
+    │   │   │   │       │   ├── zz_generated.conversion.go
+    │   │   │   │       │   ├── zz_generated.deepcopy.go
+    │   │   │   │       │   └── zz_generated.defaults.go
+    │   │   │   │       ├── v1beta1
+    │   │   │   │       │   ├── doc.go
+    │   │   │   │       │   ├── register.go
+    │   │   │   │       │   ├── types.go
+    │   │   │   │       │   ├── zz_generated.conversion.go
+    │   │   │   │       │   ├── zz_generated.deepcopy.go
+    │   │   │   │       │   └── zz_generated.defaults.go
+    │   │   │   │       └── zz_generated.deepcopy.go
+    │   │   │   └── version
+    │   │   │       ├── base.go
+    │   │   │       ├── doc.go
+    │   │   │       └── version.go
+    │   │   ├── plugin
+    │   │   │   └── pkg
+    │   │   │       └── client
+    │   │   │           └── auth
+    │   │   │               └── exec
+    │   │   │                   ├── exec.go
+    │   │   │                   └── metrics.go
+    │   │   ├── rest
+    │   │   │   ├── client.go
+    │   │   │   ├── config.go
+    │   │   │   ├── exec.go
+    │   │   │   ├── OWNERS
+    │   │   │   ├── plugin.go
+    │   │   │   ├── request.go
+    │   │   │   ├── transport.go
+    │   │   │   ├── url_utils.go
+    │   │   │   ├── urlbackoff.go
+    │   │   │   ├── warnings.go
+    │   │   │   ├── watch
+    │   │   │   │   ├── decoder.go
+    │   │   │   │   └── encoder.go
+    │   │   │   ├── with_retry.go
+    │   │   │   └── zz_generated.deepcopy.go
+    │   │   ├── tools
+    │   │   │   ├── auth
+    │   │   │   │   ├── clientauth.go
+    │   │   │   │   └── OWNERS
+    │   │   │   ├── clientcmd
+    │   │   │   │   ├── api
+    │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   ├── helpers.go
+    │   │   │   │   │   ├── latest
+    │   │   │   │   │   │   └── latest.go
+    │   │   │   │   │   ├── register.go
+    │   │   │   │   │   ├── types.go
+    │   │   │   │   │   ├── v1
+    │   │   │   │   │   │   ├── conversion.go
+    │   │   │   │   │   │   ├── defaults.go
+    │   │   │   │   │   │   ├── doc.go
+    │   │   │   │   │   │   ├── register.go
+    │   │   │   │   │   │   ├── types.go
+    │   │   │   │   │   │   ├── zz_generated.conversion.go
+    │   │   │   │   │   │   ├── zz_generated.deepcopy.go
+    │   │   │   │   │   │   └── zz_generated.defaults.go
+    │   │   │   │   │   └── zz_generated.deepcopy.go
+    │   │   │   │   ├── auth_loaders.go
+    │   │   │   │   ├── client_config.go
+    │   │   │   │   ├── config.go
+    │   │   │   │   ├── doc.go
+    │   │   │   │   ├── flag.go
+    │   │   │   │   ├── helpers.go
+    │   │   │   │   ├── loader.go
+    │   │   │   │   ├── merged_client_builder.go
+    │   │   │   │   ├── overrides.go
+    │   │   │   │   └── validation.go
+    │   │   │   └── metrics
+    │   │   │       ├── metrics.go
+    │   │   │       └── OWNERS
+    │   │   ├── transport
+    │   │   │   ├── cache_go118.go
+    │   │   │   ├── cache.go
+    │   │   │   ├── cert_rotation.go
+    │   │   │   ├── config.go
+    │   │   │   ├── OWNERS
+    │   │   │   ├── round_trippers.go
+    │   │   │   ├── token_source.go
+    │   │   │   └── transport.go
+    │   │   └── util
+    │   │       ├── cert
+    │   │       │   ├── cert.go
+    │   │       │   ├── csr.go
+    │   │       │   ├── io.go
+    │   │       │   ├── OWNERS
+    │   │       │   ├── pem.go
+    │   │       │   └── server_inspection.go
+    │   │       ├── connrotation
+    │   │       │   └── connrotation.go
+    │   │       ├── flowcontrol
+    │   │       │   ├── backoff.go
+    │   │       │   └── throttle.go
+    │   │       ├── homedir
+    │   │       │   └── homedir.go
+    │   │       ├── keyutil
+    │   │       │   ├── key.go
+    │   │       │   └── OWNERS
+    │   │       └── workqueue
+    │   │           ├── default_rate_limiters.go
+    │   │           ├── delaying_queue.go
+    │   │           ├── doc.go
+    │   │           ├── metrics.go
+    │   │           ├── parallelizer.go
+    │   │           ├── queue.go
+    │   │           └── rate_limiting_queue.go
+    │   ├── klog
+    │   │   └── v2
+    │   │       ├── code-of-conduct.md
+    │   │       ├── contextual.go
+    │   │       ├── CONTRIBUTING.md
+    │   │       ├── exit.go
+    │   │       ├── imports.go
+    │   │       ├── internal
+    │   │       │   ├── buffer
+    │   │       │   │   └── buffer.go
+    │   │       │   ├── clock
+    │   │       │   │   ├── clock.go
+    │   │       │   │   └── README.md
+    │   │       │   ├── dbg
+    │   │       │   │   └── dbg.go
+    │   │       │   ├── serialize
+    │   │       │   │   └── keyvalues.go
+    │   │       │   └── severity
+    │   │       │       └── severity.go
+    │   │       ├── k8s_references.go
+    │   │       ├── klog_file_others.go
+    │   │       ├── klog_file_windows.go
+    │   │       ├── klog_file.go
+    │   │       ├── klog.go
+    │   │       ├── klogr.go
+    │   │       ├── LICENSE
+    │   │       ├── OWNERS
+    │   │       ├── README.md
+    │   │       ├── RELEASE.md
+    │   │       ├── SECURITY_CONTACTS
+    │   │       └── SECURITY.md
+    │   └── utils
+    │       ├── clock
+    │       │   ├── clock.go
+    │       │   ├── README.md
+    │       │   └── testing
+    │       │       ├── fake_clock.go
+    │       │       └── simple_interval_clock.go
+    │       ├── integer
+    │       │   └── integer.go
+    │       ├── internal
+    │       │   └── third_party
+    │       │       └── forked
+    │       │           └── golang
+    │       │               ├── LICENSE
+    │       │               ├── net
+    │       │               │   ├── ip.go
+    │       │               │   └── parse.go
+    │       │               └── PATENTS
+    │       ├── LICENSE
+    │       ├── net
+    │       │   ├── ipfamily.go
+    │       │   ├── ipnet.go
+    │       │   ├── net.go
+    │       │   ├── parse.go
+    │       │   └── port.go
+    │       └── strings
+    │           └── slices
+    │               └── slices.go
+    ├── modules.txt
+    └── sigs.k8s.io
+        ├── json
+        │   ├── code-of-conduct.md
+        │   ├── CONTRIBUTING.md
+        │   ├── doc.go
+        │   ├── internal
+        │   │   └── golang
+        │   │       └── encoding
+        │   │           └── json
+        │   │               ├── decode.go
+        │   │               ├── encode.go
+        │   │               ├── fold.go
+        │   │               ├── fuzz.go
+        │   │               ├── indent.go
+        │   │               ├── kubernetes_patch.go
+        │   │               ├── scanner.go
+        │   │               ├── stream.go
+        │   │               ├── tables.go
+        │   │               └── tags.go
+        │   ├── json.go
+        │   ├── LICENSE
+        │   ├── Makefile
+        │   ├── OWNERS
+        │   ├── README.md
+        │   ├── SECURITY_CONTACTS
+        │   └── SECURITY.md
+        ├── structured-merge-diff
+        │   └── v4
+        │       ├── LICENSE
+        │       └── value
+        │           ├── allocator.go
+        │           ├── doc.go
+        │           ├── fields.go
+        │           ├── jsontagutil.go
+        │           ├── list.go
+        │           ├── listreflect.go
+        │           ├── listunstructured.go
+        │           ├── map.go
+        │           ├── mapreflect.go
+        │           ├── mapunstructured.go
+        │           ├── reflectcache.go
+        │           ├── scalar.go
+        │           ├── structreflect.go
+        │           ├── value.go
+        │           ├── valuereflect.go
+        │           └── valueunstructured.go
+        └── yaml
+            ├── code-of-conduct.md
+            ├── CONTRIBUTING.md
+            ├── fields.go
+            ├── LICENSE
+            ├── OWNERS
+            ├── README.md
+            ├── RELEASE.md
+            ├── SECURITY_CONTACTS
+            ├── yaml_go110.go
+            └── yaml.go

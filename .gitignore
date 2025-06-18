@@ -26,3 +26,5 @@ prime/
 stage/
 doctl_v*.snap
 snap/.snapcraft/
+
+.fake
